@@ -2,8 +2,10 @@
 @prefix schema: <https://schema.org/>.
 @prefix xsd: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
-<https://github.com/idaels> foaf:name "Ilse Daels"^^xsd:string;
+<https://idaels.github.io/big-data/exercise_lec4.ttl/#me> foaf:name "Ilse Daels"^^xsd:string;
                       schema:knows <https://users.ugent.be/~lasaeren/> .
 
+<https://idaels.github.io/big-data/exercise_lec4.ttl/#victor> foaf:name "Victor Mylle"^^xsd:string;
+                      schema:knows <https://idaels.github.io/big-data/exercise_lec4.ttl/#me> .
 
-		     
+     
